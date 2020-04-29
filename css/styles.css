@@ -1,0 +1,171 @@
+/*By ObiArt 2020*/
+
+body {
+    font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
+    text-align: -moz-center;
+    text-align: -webkit-center;
+    font-weight: bold;
+    background-color: #3a69bb;
+}
+
+@keyframes jumpy_r {
+    0% {top: 0px;left: 0px;
+        text-shadow: 1px 1px 0px #d13729,
+                     2px 2px 0px #d13729,
+                     3px 3px 0px #d13729,
+                     4px 4px 0px #d13729,
+                     5px 5px 0px #d13729,
+                     6px 6px 0px #d13729,
+                     7px 7px 0px #d13729,
+                     8px 8px 0px #d13729,
+                     1px 1px 0px #d13729,
+                     2px 2px 0px #d13729,
+                     3px 3px 0px #d13729,
+                     4px 4px 0px #d13729,
+                     5px 5px 0px #d13729,
+                     6px 6px 0px #d13729,
+                     7px 7px 0px #d13729,
+                     8px 8px 0px #d13729;}
+    100% {top: -8px; left: -8px;
+          text-shadow: 1px 1px 0px #d13729,
+                       2px 2px 0px #d13729,
+                       3px 3px 0px #d13729,
+                       4px 4px 0px #d13729,
+                       5px 5px 0px #d13729,
+                       6px 6px 0px #d13729,
+                       7px 7px 0px #d13729,
+                       8px 8px 0px #d13729,
+                       9px 9px 0px #d13729,
+                       10px 10px 0px #d13729,
+                       11px 11px 0px #d13729,
+                       12px 12px 0px #d13729,
+                       13px 13px 0px #d13729,
+                       14px 14px 0px #d13729,
+                       15px 15px 0px #d13729,
+                       16px 16px 0px #d13729;}
+}
+
+@keyframes jumpy_l {
+    0% {top: 0px;left: 0px;
+        text-shadow: -1px 1px 0px #d13729,
+                     -2px 2px 0px #d13729,
+                     -3px 3px 0px #d13729,
+                     -4px 4px 0px #d13729,
+                     -5px 5px 0px #d13729,
+                     -6px 6px 0px #d13729,
+                     -7px 7px 0px #d13729,
+                     -8px 8px 0px #d13729,
+                     -1px 1px 0px #d13729,
+                     -2px 2px 0px #d13729,
+                     -3px 3px 0px #d13729,
+                     -4px 4px 0px #d13729,
+                     -5px 5px 0px #d13729,
+                     -6px 6px 0px #d13729,
+                     -7px 7px 0px #d13729,
+                     -8px 8px 0px #d13729;}
+    100% {top: -8px; left: 8px;
+          text-shadow: -1px 1px 0px #d13729,
+                       -2px 2px 0px #d13729,
+                       -3px 3px 0px #d13729,
+                       -4px 4px 0px #d13729,
+                       -5px 5px 0px #d13729,
+                       -6px 6px 0px #d13729,
+                       -7px 7px 0px #d13729,
+                       -8px 8px 0px #d13729,
+                       -9px 9px 0px #d13729,
+                       -10px 10px 0px #d13729,
+                       -11px 11px 0px #d13729,
+                       -12px 12px 0px #d13729,
+                       -13px 13px 0px #d13729,
+                       -14px 14px 0px #d13729,
+                       -15px 15px 0px #d13729,
+                       -16px 16px 0px #d13729;}
+}
+
+.but {
+    margin: 1rem;
+    width: 15rem;
+    height: 6rem;
+    font-size: 2.5rem;
+    cursor: pointer;
+    position: relative; 
+    border: none;
+    top: 0px;
+    left: 0px;
+    color: #d13729;
+    background-color: #ffffff;
+    transition-property: box-shadow, top, left;
+    transition-duration: 0.6s;
+    box-shadow: -1px 1px 0px #d13729,
+                       -2px 2px 0px #d13729,
+                       -3px 3px 0px #d13729,
+                       -4px 4px 0px #d13729,
+                       -5px 5px 0px #d13729,
+                       -6px 6px 0px #d13729,
+                       -7px 7px 0px #d13729,
+                       -8px 8px 0px #d13729,
+                       -9px 9px 0px #d13729,
+                       -10px 10px 0px #d13729,
+                       -11px 11px 0px #d13729,
+                       -12px 12px 0px #d13729,
+                       -13px 13px 0px #d13729,
+                       -14px 14px 0px #d13729,
+                       -15px 15px 0px #d13729,
+                       -16px 16px 0px #d13729;
+}
+
+.but:hover, but:focus{
+    top: 8px;
+    left: -8px;
+    box-shadow: -1px 1px 0px #d13729,
+                     -2px 2px 0px #d13729,
+                     -3px 3px 0px #d13729,
+                     -4px 4px 0px #d13729,
+                     -5px 5px 0px #d13729,
+                     -6px 6px 0px #d13729,
+                     -7px 7px 0px #d13729,
+                     -8px 8px 0px #d13729,
+                     -1px 1px 0px #d13729,
+                     -2px 2px 0px #d13729,
+                     -3px 3px 0px #d13729,
+                     -4px 4px 0px #d13729,
+                     -5px 5px 0px #d13729,
+                     -6px 6px 0px #d13729,
+                     -7px 7px 0px #d13729,
+                     -8px 8px 0px #d13729;
+}
+
+.logo {
+    font-size: 10rem;
+    position: relative; 
+    top: 0px;
+    left: 0px;
+    color: #ffffff;
+    animation-duration: 0.6s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+.l {
+    animation-name: jumpy_l;
+}
+
+.r {
+    animation-name: jumpy_r;
+}
+
+.delay0 {
+    animation-delay: -0.1s;
+}
+
+.delay1 {
+    animation-delay: -0.8s;
+}
+
+.delay2 {
+    animation-delay: -1.1s;
+}
+
+.delay3 {
+    animation-delay: -0.3s;
+}
